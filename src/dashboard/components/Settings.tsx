@@ -8,7 +8,7 @@ import {
   Alert, Card, CardContent, CircularProgress
 } from '@mui/material';
 import SaveIcon from '@mui/icons-material/Save';
-import { SelectChangeEvent } from '@mui/material';
+import type { SelectChangeEvent } from '@mui/material';
 interface SettingsData {
   apiKey: string;
   apiProvider: string;

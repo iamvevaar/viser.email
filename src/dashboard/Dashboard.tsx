@@ -1,7 +1,6 @@
 // src/dashboard/Dashboard.tsx
 
 import React, { useState } from 'react';
-import './Dashboard.css';
 import {
   Box,
   Container,

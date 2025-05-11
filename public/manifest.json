@@ -9,7 +9,7 @@
     "128": "icons/icon128.png"
   },
   "action": {
-    "default_popup": "popup.html",
+    "default_popup": "src/popup/index.html",
     "default_icon": {
       "16": "icons/icon16.png",
       "48": "icons/icon48.png",
@@ -36,7 +36,7 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": ["dashboard.html"],
+      "resources": ["dashboard/*"],
       "matches": ["<all_urls>"]
     }
   ]

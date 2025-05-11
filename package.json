@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-     "dev": "vite",
-  "build": "tsc && vite build && node scripts/postbuild.js",
-  "ext:dev": "vite build --watch && node scripts/postbuild.js",
-  "ext:build": "vite build && node scripts/postbuild.js"
+    "dev": "vite",
+    "build": "tsc && vite build && node scripts/postbuild.js",
+    "ext:dev": "vite build --watch && node scripts/postbuild.js",
+    "ext:build": "vite build && node scripts/postbuild.js"
   },
   "dependencies": {
     "react": "^19.1.0",
